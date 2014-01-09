@@ -4,7 +4,7 @@ class PaydollarNotificationTest < Test::Unit::TestCase
   include ActiveMerchant::Billing::Integrations
 
   def setup
-    @paydollar = Paydollar::Notification.new(http_raw_data, options = {:credential2 => "", :hasSecureHashEnabled => false})
+    @paydollar = Paydollar::Notification.new(http_raw_data, options = {:credential2 => "", :hasSecureHashEnabled => false}) 
   end
 
   def test_accessors

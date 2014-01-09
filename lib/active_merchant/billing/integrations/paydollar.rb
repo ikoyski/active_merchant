@@ -6,7 +6,7 @@ module ActiveMerchant #:nodoc:
     module Integrations #:nodoc:
       module Paydollar
 
-        #mattr_accessor :service_url
+        #mattr_accessor :service_url 
         #self.service_url = 'https://www.example.com'
 
         #def self.notification(post)

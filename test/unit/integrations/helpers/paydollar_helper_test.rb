@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PaydollarHelperTest < Test::Unit::TestCase
+class PaydollarHelperTest < Test::Unit::TestCase 
   include ActiveMerchant::Billing::Integrations
   
   def setup

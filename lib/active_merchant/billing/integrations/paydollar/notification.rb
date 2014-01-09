@@ -4,7 +4,7 @@ module ActiveMerchant #:nodoc:
   module Billing #:nodoc:
     module Integrations #:nodoc:
       
-      # Example:
+      # Example: 
       # * You may use this on your controller
       # * This is for datafeed function (similar to PayPal's IPN). This is for receiving payment result from PayDollar via web service/server posting.
       # * On this example, there is a 'Cart' class 

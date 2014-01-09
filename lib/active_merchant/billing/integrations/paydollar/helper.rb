@@ -3,7 +3,7 @@ module ActiveMerchant #:nodoc:
     module Integrations #:nodoc:
       module Paydollar
         
-        # Example:
+        # Example: 
         # * You may use this on your view/html page
         #
         # ActiveMerchant::Billing::Base.integration_mode = :test
